@@ -5,7 +5,7 @@ object Day01 {
     def main(args: Array[String]) = {
         var input: String = readLine
         var curr: Int = 0
-        var list: ListBuffer[Int] = new ListBuffer[Int]()
+        val list: ListBuffer[Int] = new ListBuffer[Int]()
 
         while (input != null) {
             if (input != "") {
@@ -17,7 +17,7 @@ object Day01 {
             input = readLine
         }
 
-        var sortedList = list.sortWith(_ > _)
+        val sortedList: ListBuffer[Int] = list.sortWith(_ > _)
 
         println(sortedList(0))
         println(sortedList(0) + sortedList(1) + sortedList(2))
