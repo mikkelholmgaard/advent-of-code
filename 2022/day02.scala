@@ -11,9 +11,9 @@ object Day02 {
                     case "C" => if (play(1) == "X") 1+6 else if (play(1) == "Y") 0+2 else 3+3
             case true => {
                 play(0) match
-                    case "A" => if (play(1) == "X") 0 + 3 else if (play(1) == "Y") 3 + 1 else 6 + 2
-                    case "B" => if (play(1) == "X") 0 + 1 else if (play(1) == "Y") 3 + 2 else 6 + 3
-                    case "C" => if (play(1) == "X") 0 + 2 else if (play(1) == "Y") 3 + 3 else 6 + 1
+                    case "A" => if (play(1) == "X") 0+3 else if (play(1) == "Y") 3+1 else 6+2
+                    case "B" => if (play(1) == "X") 0+1 else if (play(1) == "Y") 3+2 else 6+3
+                    case "C" => if (play(1) == "X") 0+2 else if (play(1) == "Y") 3+3 else 6+1
             }
         }
     }
