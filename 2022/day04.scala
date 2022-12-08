@@ -1,6 +1,6 @@
 import scala.io.StdIn.readLine
 
-object Day03 {
+object Day04 {
   def main(args: Array[String]) = {
     var input = readLine
     var i = 0
