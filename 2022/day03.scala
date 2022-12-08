@@ -7,7 +7,6 @@ object Day03 {
         var a = "abcdefghijklmnopqrstuvwxyz";
         var aa = a + a.toUpperCase()
         var priority = 0
-        var index = 1
 
         // Second part
         while (input != null) {
