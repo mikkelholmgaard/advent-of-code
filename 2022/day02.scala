@@ -1,5 +1,4 @@
 import scala.io.StdIn.readLine
-import scala.collection.mutable.ListBuffer
 
 object Day02 {
     def result(play: Array[String], correctUse: Boolean): Int = {
