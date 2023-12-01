@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func part1() {
 	data, err := os.ReadFile("input/01.txt")
 	if err != nil {
 		fmt.Println("File reading error", err)
@@ -43,4 +43,8 @@ func main() {
 	}
 
 	fmt.Println(result)
+}
+
+func main() {
+	part1()
 }
